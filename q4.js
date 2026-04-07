@@ -3,15 +3,11 @@ function runCode4() {
   alert(
     "Constraints: 1 ≤ base ≤ 1000, 0 ≤ distance ≤ 100, 0 ≤ minutesLate ≤ 120, 0 ≤seed ≤ 9",
   );
-  let input = prompt(
-    "Enter base, distance, minutesLate, and seed separated by space: ",
-  );
-  let parts = input.split(" ");
 
-  let base = parseInt(parts[0]);
-  let distance = parseInt(parts[1]);
-  let minuteslate = parseInt(parts[2]);
-  let seed = parseInt(parts[3]);
+  let base = parseInt(prompt("Enter the value: "));
+  let distance = parseInt(prompt("Enter the value: "));
+  let minuteslate = parseInt(prompt("Enter the value: "));
+  let seed = parseInt(prompt("Enter the value: "));
 
   //   alert(parts);
 
